@@ -1,0 +1,30 @@
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#aboutme {
+    color: #ff6347;
+}
+
+.row-center {
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: #F0E68C;
+    text-align: center;
+}
+
+a:hover {
+    color: #ff6347;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#contact {
+    color: #ff6347;
+}

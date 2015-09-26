@@ -1,0 +1,49 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+    <div class='container'><div class="jumbotron">
+        <div class="header">
+            <div class="row row-center">
+                <div class='col-md-6'>
+                    <h2 class="header">Oanapy's Weather Now page</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--sask the weather conditions-->
+        <div class="row row-center" id = "askw" style= "display: none">
+            <div class='col-md-6'>
+                <div class="form-group">
+                    <label for="cty">Your location:</label>
+                    <input type="text" class="form-control" id="cty">
+                </div>
+            </div>
+            <div class='col-md-6'>
+                <!--<label class="radio-inline">-->
+                    <!--<input type="radio" name="optradio" id="cels">Celsius</label>-->
+                <!--<label class="radio-inline">-->
+                    <!--<input type="radio" name="optradio" id ="fah">Fahrenheit</label>-->
+                <button type="button" class="btn btn-default" value="Submit" onclick="weatherize()">Submit</button>
+            </div>
+        </div>
+        <!--show the weather conditions and icons-->
+        <div class = "row row-center" id="showw">
+            <div class='col-md-3'>
+                <canvas id="icon1" width="50" height="50"></canvas>
+                <p id="demo"></p>
+                <!--shows the location-->
+                <img src="" id = "icons"/>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div id="contact" class='jumbotron'>
+        <h2 id="aboutme" class="header">Oanapy</h2>
+        <p class="header">I'm a full-time <a href="https://cercetez.wordpress.com/">curious</a> and a part-time <a href='http://www.freecodecamp.com/oanapy'>coder</a>.
+        </p>
+    </div>
+    <script src="skycons.js"></script>
+    <script src="script.js"></script>
+</body>
